@@ -1,0 +1,40 @@
+body{
+  background-image: url(79017285-taza-de-café-en-un-fondo-brillante-de-color-rosa-pastel-y-azul-01.jpeg);
+  background-attachment: fixed;
+  background-size: 100% 100%; 
+  
+  background-repeat: no-repeat;
+}
+.titre-registration{
+
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.container{
+padding: 25px;
+
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+
+.btnRegister{
+  float: right;
+
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #b3496b;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+
+}
+
